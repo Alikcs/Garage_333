@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garage 333 - Детейлинг</title>
+    <link rel="stylesheet" href="style.css">
+         <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="ico/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="ico/android-chrome-512x512.png">
+    <link rel="icon" type="image/x-icon" href="ico/favicon.ico">
+    <link rel="manifest" href="ico/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="nav-toggle" id="navToggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link">Главная</a></li>
+                    <li><a href="#about" class="nav-link">О нас</a></li>
+                    <li><a href="#services" class="nav-link">Услуги</a></li>
+                    <li><a href="#gallery" class="nav-link">Фото</a></li>
+                    <li><a href="#reviews" class="nav-link">Отзывы</a></li>
+                    <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container"></div>
+            <section id="home">
+                <div class="logo-fullscreen">
+                    <img src="logo.jpg" alt="Garage 333 Logo">
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="content-container">
+                    <h2>О нас <span class="sticker">10 лет на рынке</span></h2>
+                    <div class="text-card">
+                        <p>Detailing garage 333 предлагает услуги всем, кому нравится преодолевать расстояния за рулем своей машины. Здесь предлагают услуги детейлинг-центра, а также выполняют мойку.</p>
+                        
+                        <p>Хотите привести в надлежащий вид свое авто, но у вас нет на это ни времени, ни сил? Наша компания предлагает воспользоваться возможностями профессиональной мойки. В нашем распоряжении различные устройства и чистящие средства, которые помогут вашей машине вновь засиять.</p>
+                        
+                        <p>Вы можете выбрать все услуги сразу, а если сомневаетесь - наши специалисты проконсультируют вас и подскажут, на что лучше обратить внимание в вашем случае.</p>
+                        
+                        <p>Специалисты имели дело с большинством известных марок автомобилей и готовы поделиться информацией о специфике вашей модели. Мы принимаем в расчет рекомендации завода-изготовителя и придерживаемся технического регламента.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services">
+                <div class="content-container">
+                    <h2>Услуги</h2>
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <img src="imganti.jpg" alt="Антикоррозийная обработка" class="service-image">
+                            <h3>Антикор</h3>                        
+                            <p>антикоррозийная обработка</p>
+                            <span class="price">35000₽</span>
+                        </div>
+                        <div class="service-item">
+                            <img src="imgel.jpg" alt="Электроника автомобиля" class="service-image">
+                            <h3>Электроника авто</h3>                            
+                            <p>доводчики дверей установка</p>
+                            <span class="price">50000₽</span>
+                        </div>
+                        <div class="service-item">
+                            <img src="imgker.jpg" alt="Гидрофобное покрытие" class="service-image">
+                            <h3>Гидрофоб</h3>                        
+                            <p>керамика</p>
+                            <span class="price">15000₽</span>
+                        </div>
+                        <div class="service-item">
+                            <img src="imgxim.jpg" alt="Химчистка автомобиля" class="service-image">
+                            <h3>Чистка</h3>                            
+                            <p>химчистка</p>
+                            <span class="price">15000₽</span>
+                        </div>
+                        <div class="service-item">
+                            <img src="imgpol.jpg" alt="Полировка автомобиля" class="service-image">
+                            <h3>Полировка</h3>                            
+                            <p>"жидкое стекло" керамика</p>
+                            <span class="price">20000₽</span>
+                        </div>
+                        <div class="service-item">
+                            <img src="imgshm.jpg" alt="Шумоизоляция автомобиля" class="service-image">
+                            <h3>Шумоизоляция</h3>                            
+                            <p>арки, пол, кабина, крыша, автомобиль, двери</p>
+                            <span class="price">25000₽</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="gallery">
+                <div class="content-container">
+                    <h2>Фото 
+                        <button id="toggle-gallery" class="gallery-toggle">Свернуть ↑</button>
+                    </h2>
+                    <div class="gallery-wrapper">
+                        <div class="gallery-grid">
+                            <!-- Фото будут добавлены через JS -->
+                        </div>
+                        <div class="gallery-overlay"></div>
+                    </div>
+                    <button id="show-more" class="show-more-btn">Показать еще ↓</button>
+                </div>
+            </section>
+    <!-- Модальное окно для просмотра фото -->
+        <div id="image-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-image-container">
+                    <img id="modal-image" src="" alt="">
+                    <div class="image-counter">
+                        <span id="current-image">1</span> / <span id="total-images">34</span>
+                    </div>
+                </div>
+                <button class="nav-button prev-button">&#10094;</button>
+                <button class="nav-button next-button">&#10095;</button>
+            </div>
+        </div>
+           <section id="reviews">
+                <div class="content-container">
+                    <h2>Отзывы</h2>
+                    <div class="reviews-container collapsed">
+                        <!-- Отзывы будут добавлены через JS -->
+                    </div>
+                    <button id="show-more-reviews" class="show-more-reviews">Показать еще отзывы ↓</button>
+                </div>
+            </section>
+
+           <section id="contacts">
+                <div class="content-container">
+                    <h2>Контакты</h2>
+                    <div class="contacts-wrapper">
+                        <div class="contact-info">
+                            <div class="contact-details">
+                                <h3>Наш адрес</h3>
+                                <p>📍 Россия, Краснодарский край, Армавир, Первоцветный проезд, 23</p>
+                                <p>📞 +7 (918) 083-99-89</p>
+                                <p>🕒 График работы: Пн-вс: 10:00 - 19:00</p>
+                            </div>
+                            <a href="https://yandex.ru/maps/10987/armavir/?ll=41.068498%2C44.973857&mode=routes&rtext=~44.973442%2C41.069214&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D219652891183&z=17.27" 
+                            target="_blank" 
+                            class="route-button">
+                                Постоить маршрут
+                            </a>
+                        </div>
+                        <div class="map-container">
+                            <iframe 
+                                src="https://yandex.ru/map-widget/v1/?um=constructor%3A716030923580f3a0872bb78e56ebcfe4419c133be60a08df16cb35cc5d5620ec&amp;source=constructor" 
+                                width="100%" 
+                                height="400" 
+                                frameborder="0" 
+                                allowfullscreen="true">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>   
+    </main>
+
+   <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Garage 333</h3>
+                <p>Профессиональный детейлинг для вашего автомобиля</p>
+            </div>
+            <div class="footer-section">
+                <h4>Навигация</h4>
+                <nav class="footer-nav">
+                    <div class="footer-nav-column">
+                        <a href="#home">Главная</a>
+                        <a href="#about">О нас</a>
+                        <a href="#services">Услуги</a>
+                    </div>
+                    <div class="footer-nav-column">
+                        <a href="#gallery">Фото</a>
+                        <a href="#reviews">Отзывы</a>
+                        <a href="#contacts">Контакты</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="footer-section">
+                <h4>Контакты</h4>
+                <p>📞 +7 (918) 083-99-89</p>
+                <p>📍 Армавир, Первоцветный проезд, 23</p>
+            </div>
+            <div class="footer-section">
+                <h4>Мы в соцсетях</h4>
+                <div class="social-links">
+                    <a href="https://t.me/+12-FOifNtbgyNTdi" target="_blank" class="social-link telegram">
+                        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.191l-1.83 8.725c-.129.585-.479.731-.97.456l-2.733-2.02-1.32 1.26c-.146.146-.27.27-.553.27l.198-2.79 5.12-4.577c.213-.191-.046-.297-.33-.107l-6.35 4.005-2.69-.84c-.582-.182-.597-.582.135-.874l10.57-4.077c.483-.174.91.114.747.865z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/garage_333?igsh=bmJ5cThxa3h0azVt" target="_blank" class="social-link instagram">
+                        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                    <a href="https://api.whatsapp.com/send/?phone=79180839989&text&type=phone_number&app_absent=0" target="_blank" class="social-link whatsapp">
+                        <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.146-.174.194-.298.297-.497.1-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.49 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.409.248-.69.248-1.279.173-1.404-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893-.001-3.189-1.262-6.187-3.55-8.444"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2015-2025 Garage 333. Все права защищены.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
