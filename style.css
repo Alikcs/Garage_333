@@ -265,12 +265,12 @@ section {
     padding: 0 2rem;
 }
 
-/* Стиль для текста как на картинке 2 */
+/* Центрирование текста в разделе О нас */
 .text-card {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    padding: 2rem;
+    text-indent: 1em;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
     line-height: 1.7;
 }
 /* Ограничение ширины для текстового контента */
@@ -1161,6 +1161,17 @@ footer::before {
         width: 24px;
         height: 24px;
     }
+    .sticker {
+        padding: 0.4rem 1rem;
+        font-size: 0.7rem;
+        margin-left: 0.5rem;
+    }
+    
+    .text-card {
+        text-indent: 1em;
+        text-align: justify; 
+        padding: 1.5rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1213,5 +1224,10 @@ footer::before {
     .social-icon {
         width: 26px;
         height: 26px;
+    }
+    .sticker {
+        padding: 0.3rem 0.8rem;
+        font-size: 0.6rem;
+        margin-left: 0.3rem;
     }
 }
